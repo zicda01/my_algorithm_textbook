@@ -200,7 +200,7 @@ def dfs(v, N):                          # 출발점 v, 마지막 정점 N
             if stack:                   # 더 이상 갈 곳이 없다면,
                 v = stack.pop()         # top 스택 제거
             else:                       # 스택이 비어있다면,
-                break                   # 반복문 탈출출
+                break                   # 반복문 탈출
 V, E = map(int, input().split())
 graph = list(map(int, input().split()))
 adj_list = [[] for _ in range(V + 1)]   # 이하 인접리스트 입력 받기
